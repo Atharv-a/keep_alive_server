@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 const url = 'https://userbackend-4o9x.onrender.com/';
-const interval = 30000; // 40 seconds
+const interval = 40000; // 40 seconds
 
 const pingServer = async () => {
   try {
